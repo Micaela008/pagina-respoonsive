@@ -1,0 +1,145 @@
+/* Estilo para el cuerpo de la página */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #ffffff;
+}
+
+body {background-image: url("imagenes/fondo.jpg" ); 
+  background-size: cover;
+  
+}
+
+/* Estilo para el contenedor principal */
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Estilo para el encabezado */
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+header h1 {
+  font-size: 48px;
+  margin: 0;
+}
+
+header p {
+  font-size: 24px;
+  margin: 0;
+}
+
+/* Estilo para la navegación */
+nav {
+  background-color: #9c691d;
+  padding: 10px;
+  margin-bottom: 40px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000000;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #333;
+  color: #c79c11;
+}
+
+/* Estilo para los artículos */
+article {
+  margin-bottom: 40px;
+}
+
+article h2 {
+  font-size: 36px;
+  margin: 0 0 20px;
+}
+
+article p {
+  font-size: 18px;
+  margin: 0 0 20px;
+}
+
+article ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+article li {
+  margin-bottom: 20px;
+}
+
+article h3 {
+  font-size: 24px;
+  margin: 0 0 10px;
+}
+
+/* Estilo para la sección de publicidad */
+aside {
+  background-color: #8a5c18;
+  color: #fff;
+  padding: 20px;
+}
+
+aside h2 {
+  font-size: 36px;
+  margin: 0 0 20px;
+}
+
+aside p {
+  font-size: 18px;
+  margin: 0 0 20px;
+}
+
+/* Estilo para las secciones de productos, servicios y contacto */
+#productos,
+#servicios,
+#contacto {
+  margin-bottom: 40px;
+}
+
+#productos h2,
+#servicios h2,
+#contacto h2 {
+  font-size: 36px;
+  margin: 0 0 20px;
+}
+
+#productos p,
+#servicios p,
+#contacto p {
+  font-size: 18px;
+  margin: 0 0 20px;
+}
+
+#contacto ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#contacto li {
+  margin-bottom: 10px;
+}
